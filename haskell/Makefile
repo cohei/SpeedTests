@@ -1,5 +1,6 @@
 v1:
-	ghc -O2 main.hs
+	cabal build
+	cp $(shell cabal list-bin exe:speedtests) ./main
 
 strip:
 	strip -s main

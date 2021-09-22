@@ -1,0 +1,9 @@
+cabal-version: 2.4
+name:          SpeedTests
+version:       0.1.0.0
+
+executable speedtests
+  main-is:          main.hs
+  build-depends:    base
+  default-language: Haskell2010
+  ghc-options:      -Wall
